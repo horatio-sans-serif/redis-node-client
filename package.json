@@ -30,5 +30,5 @@
   "os": [ "linux", "darwin" ],
   "dependencies": {},
   "engines": { "node":  ">0.1.90" },
-  "main": "./redis-client"
+  "main": "./lib/redis-client"
 }
