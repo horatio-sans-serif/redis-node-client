@@ -160,10 +160,6 @@ function testParseBulkReply() {
     b.feed(bufferFromString("$-1\r\n"));
 }
 
-Buffer.prototype.toString=function() {
-    return this.utf8Slice(0,this.length);
-}
-
 function testParseMultiBulkReply() {
     var a = new redisclient.ReplyParser(function (reply) {
         checkEqual(reply.type, redisclient.MULTIBULK, "testParseMultiBulkReply a-0");
