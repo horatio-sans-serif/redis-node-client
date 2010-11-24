@@ -504,8 +504,9 @@ function testEXPIRE() {
     client.expire('expfoo', 2, expectNumber(1, "testEXPIRE"));
 
     // subsequent expirations cannot be set.
+    // this is only for redis versions < 2.1.3
 
-    client.expire('expfoo', 10, expectNumber(0, "testEXPIRE"));
+    //client.expire('expfoo', 10, expectNumber(0, "testEXPIRE"));
 
     if (verbose)
         log("info", "Please wait while a test key expires ...");
