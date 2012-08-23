@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/fictorial/redis-node-client.png)](http://travis-ci.org/fictorial/redis-node-client)
 # Redis client for Node.js ![Project Status](http://stillmaintained.com/fictorial/redis-node-client.png)
 
 ## In a nutshell
