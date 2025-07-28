@@ -3,7 +3,7 @@
   "description": "Redis client for Node.js",
   "version": "0.3.5",
   "keywords": [ "redis", "node", "client" ],
-  "author": "Brian Hammond <brian@fictorial.com>",
+  "author": "someone@somewhere.com",
   "contributors": [
     { "name": "Brian Hammond", "web": "http://fictorial.com" },
     { "name": "Brit Gardner", "web": "http://britg.com" },
